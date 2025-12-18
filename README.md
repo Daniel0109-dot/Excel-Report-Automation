@@ -45,10 +45,13 @@ The goal is not to replace full BI systems, but to offer a lightweight, transpar
 To run this project locally, you will need:
 - **Python 3.10 or higher**
 - **Excel (.xlsx)** - Input/Output format
-
-And the project depends on the following Python libraries:
 - **pandas** - Data manipulation
 - **openpyxl** - Excel file handling
+
+**Prerequisites**
+- Python 3.10 or higher
+- Basic command-line usage
+- Excel files following a known structural pattern
 
 These dependencies can be installed using 'pip'.
 
@@ -102,18 +105,21 @@ Excel Report Automation/
 |--- LICENSE
 
 **Design Decisions**
+
 . Modular architecture: Each step of the process(loading, cleaning, rules, output) is isolated to improve readability and maintainability.
 . Explicit business rules: Rules are written in code instead of hidden in Excel formulas, making them easier to audit and change.
 . Deterministic behavior: No probabilistic models are used; the same input always produces the same output.
 . Human-readable outputs: Generated files prioritize clarity over compression or performance.
 
 **Known Limitations**
+
 . Input Excel files are expected to follow a known structural pattern
 . Business rules are static and coded directly(no external configuration yet)
 . No automatic schema validation is performed
 . Error handling is intentionally simple to keep the logic transparent
 
 **Future Improvements**
+
 . External configuration of rules via JSON or YAML
 . Structured logging and execution reports
 . Automated schema validation
