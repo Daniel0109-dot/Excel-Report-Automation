@@ -79,31 +79,34 @@ python main.py
 
 3. Find generated reports in output/generated_reports/
 
-**Project Structure**
-Excel Report Automation/
-|
-|---input/
-|   |---- example_files/
-|
-|---output/
-|   |----generated_reports/
-|
-|---src/
-|   |---- __init__.py
-|   |---- config.py
-|   |---- file_loader.py
-|   |---- text_utils.py
-|   |---- data_cleaning.py
-|   |---- business_rules.py
-|   |---- report_generator.py
-|
-|--- main.py
-|--- requirements.txt
-|--- README.md
-|--- README_PT.md
-|--- .gitignore
-|--- LICENSE
+**Project Structure*
 
+```text
+excel-report-automation/
+├── input/
+│   └── example_files/
+│
+├── output/
+│   └── generated_reports/
+│
+├── src/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── file_loader.py
+│   ├── text_utils.py
+│   ├── data_cleaning.py
+│   ├── business_rules.py
+│   └── report_generator.py
+│
+├── main.py
+├── requirements.txt
+├── README.md
+├── README_PT.md
+├── .gitignore
+└── LICENSE
+```
+The Project follows a modular structure, separating data loading, cleaning,business rules, and report generation to improve readability and maintenance.
+ 
 **Design Decisions**
 
 . Modular architecture: Each step of the process(loading, cleaning, rules, output) is isolated to improve readability and maintainability.
