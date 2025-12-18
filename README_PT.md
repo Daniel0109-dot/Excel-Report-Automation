@@ -1,5 +1,7 @@
 **Automação de Relatórios Administrativos em Excel**
 
+[🇧🇷 Versão em Português](README_PT.md) | [🇺🇸 English Version](README.md)
+
 **Visão Geral**
 
 Este projeto automatiza o processamento de planilhas Excel administrativas aplicando regras de negócio predefinidas, normalizando dados e gerando saídas estruturadas segmentadas por critérios organizacionais (como diretorias ou departamentos).
