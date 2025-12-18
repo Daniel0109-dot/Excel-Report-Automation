@@ -170,3 +170,5 @@ Este projeto é uma versão generalizada e anonimizada de automações administr
 **Autor**
 
 Desenvolvido como parte de um portfólio profissional focado em automação de processos e análise de dados administrativos.
+
+[🇺🇸 English Version](README.md)
