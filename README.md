@@ -109,24 +109,24 @@ The Project follows a modular structure, separating data loading, cleaning,busin
  
 **Design Decisions**
 
-. Modular architecture: Each step of the process(loading, cleaning, rules, output) is isolated to improve readability and maintainability.
-. Explicit business rules: Rules are written in code instead of hidden in Excel formulas, making them easier to audit and change.
-. Deterministic behavior: No probabilistic models are used; the same input always produces the same output.
-. Human-readable outputs: Generated files prioritize clarity over compression or performance.
+- Modular architecture: Each step of the process(loading, cleaning, rules, output) is isolated to improve readability and maintainability.
+- Explicit business rules: Rules are written in code instead of hidden in Excel formulas, making them easier to audit and change.
+- Deterministic behavior: No probabilistic models are used; the same input always produces the same output.
+- Human-readable outputs: Generated files prioritize clarity over compression or performance.
 
 **Known Limitations**
 
-. Input Excel files are expected to follow a known structural pattern
-. Business rules are static and coded directly(no external configuration yet)
-. No automatic schema validation is performed
-. Error handling is intentionally simple to keep the logic transparent
+- Input Excel files are expected to follow a known structural pattern
+- Business rules are static and coded directly(no external configuration yet)
+- No automatic schema validation is performed
+- Error handling is intentionally simple to keep the logic transparent
 
 **Future Improvements**
 
-. External configuration of rules via JSON or YAML
-. Structured logging and execution reports
-. Automated schema validation
-. Optional integration with Power Automate or cloud storage
+- External configuration of rules via JSON or YAML
+- Structured logging and execution reports
+- Automated schema validation
+- Optional integration with Power Automate or cloud storage
 
 **License**
 
