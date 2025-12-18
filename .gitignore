@@ -144,6 +144,22 @@ ENV/
 env.bak/
 venv.bak/
 
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Excel files (inputs/outputs)
+input/*.xlsx
+output/*.xlsx
+output/generated_reports/*.xlsx
+
+# Logs
+*.log
+
 # Spyder project settings
 .spyderproject
 .spyproject
