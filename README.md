@@ -140,3 +140,5 @@ This project is a generalized and anonymized version of real administrative auto
 **Author**
 
 Developed as a part of a professional portfolio focused on process automation and administrative data analysis.
+
+[🇧🇷 Versão em Português](README_PT.md)
