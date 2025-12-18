@@ -79,7 +79,7 @@ python main.py
 
 3. Find generated reports in output/generated_reports/
 
-**Project Structure*
+**Project Structure**
 
 ```text
 excel-report-automation/
