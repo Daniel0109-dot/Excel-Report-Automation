@@ -22,7 +22,7 @@ def generate_reports(df, output_path, mapping):
         filename = safe_filename(output_name)
         path = os.path.join(
             output_path,
-            f"{filename} - {DATA_HOJE}.xlsx"
+            f"{filename}.xlsx"
         )
 
         subset.to_excel(path, index=False)
