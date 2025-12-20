@@ -27,7 +27,7 @@ HUB_TO_DIRETORIA = {
 
 def infer_diretoria_by_hub(df: pd.DataFrame) -> pd.DataFrame:
     if "hub" not in df.columns:
-        return df
+        return df.copy()
 
     if "diretoria" not in df.columns:
         df["diretoria"] = None
