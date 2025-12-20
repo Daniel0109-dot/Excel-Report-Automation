@@ -6,7 +6,7 @@ DATA_FMT = "%d-%m-%Y"
 DATA_HOJE = datetime.today().strftime(DATA_FMT)
 
 PASTA_PROCESSADO = "./input"
-PASTA_SAIDA = "./output"
+PASTA_SAIDA = "./output/generated_reports"
 
 os.makedirs(PASTA_SAIDA, exist_ok=True)
 
