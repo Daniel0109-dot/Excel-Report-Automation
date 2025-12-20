@@ -1,7 +1,6 @@
 # src/report_generator.py
 import os
 from .text_utils import safe_filename
-from .config import DATA_HOJE
 
 def generate_reports(df, output_path, mapping):
     os.makedirs(output_path, exist_ok=True)
